@@ -1,6 +1,6 @@
 # 🚀 Gene
 
-A high-performance, single-page professional portfolio. Designed with a modern minimalist and tech-focused layout featuring.
+A high-performance Single Page Application (SPA) engineered using Vue 3 and Vite. It functions as a modern, reactive digital site designed to showcase my technical competencies, full-stack projects, and professional timeline with a clean, developer-centric aesthetic.
 
 ---
 
