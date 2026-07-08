@@ -64,7 +64,7 @@
     import { Github, ExternalLink } from 'lucide-vue-next'
 
     const selectedTags = ref(['All'])
-    const tags = ['All', 'Vue', 'Laravel', 'JavaScript', 'Java', 'Django', 'Python', 'C#', ]
+    const tags = ['All', 'Vue', 'Laravel', 'JavaScript', 'TypeScript', 'Java', 'Django', 'Python', 'C#', ]
 
     const projects = ref([
         {
@@ -93,6 +93,15 @@
             stack: ['Java', 'OOP'],
             source: 'https://github.com/elgene1515/Pharmacy-Information-System',
             live: 'https://github.com/elgene1515/Pharmacy-Information-System'
+        },
+        {
+            id: 3,
+            title: 'Mich',
+            desc: 'A beautiful personal website and automated booking platform built using Vue 3 TypeScript and Vite and SCSS. This serves as her professional digital space to showcase her teaching career and easily accept appointment requests from parents and students and other inquiries.',
+            role: 'Web Developer',
+            stack: ['Vue', 'TypeScript', 'SCSS'],
+            source: 'https://github.com/elgene1515/mich',
+            live: 'https://michellemartinez.vercel.app/'
         }
     ])
 
