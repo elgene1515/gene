@@ -8,17 +8,17 @@
                 <div class="contact-meta">
                     <div class="meta-item">
                         <Phone :size="14" class="meta-icon" />
-                        <span>+63 993-563-7866</span>
+                        <a :href="`mailto:${contact.phone}`"> {{ contact.phone }} </a>
                     </div>
 
                     <div class="meta-item">
                         <Mail :size="14" class="meta-icon" />
-                        <a :href="`mailto:${email}`" class="email-link"> {{ email }} </a>
+                        <a :href="`mailto:${contact.email}`"> {{ contact.email }} </a>
                     </div>
 
                     <div class="meta-item">
                         <MapPin :size="14" class="meta-icon" />
-                        <span>Tanza, Cavite, PH</span>
+                        <span>{{ contact.address }}</span>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,11 @@
     import { Phone, Mail, MapPin } from 'lucide-vue-next'
     import { ref } from 'vue'
 
-    const email = ref('elgenereyes1515@gmail.com')
+    const contact = ref({
+        email: 'elgenereyes1515@gmail.com',
+        phone: '+63 993-563-7866',
+        address: 'Tanza, Cavite, PH'
+    })
 </script>
 
 <style lang="scss" scoped>
