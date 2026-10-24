@@ -102,6 +102,15 @@
             stack: ['Vue', 'TypeScript', 'SCSS'],
             source: 'https://github.com/elgene1515/mich',
             live: 'https://michellemartinez.vercel.app/'
+        },
+        {
+            id: 4,
+            title: 'PACES Monitoring System',
+            desc: 'A multi-tenant web platform for schools to track student progress and PACEs in one organized place. It has role-based access for owners and admins, secure authentication with email verification and password reset, and separate data for each school. Currently in a trial with its first partner school.',
+            role: 'Full-Stack Developer',
+            stack: ['Laravel', 'Vue', 'MySQL'],
+            source: 'https://github.com/elgene1515/pacesmonitoring',
+            live: 'https://pacesmonitoring.wasmer.app'
         }
     ])
 
